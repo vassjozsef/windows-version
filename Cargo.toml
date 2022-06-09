@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 [target.'cfg(windows)'.dependencies]
-windows = { version = "0.34.0", features = ["Foundation_Metadata"]}
+windows = { version = "0.34.0", features = ["Foundation_Metadata", "Win32_System_WinRT_Graphics_Capture"] }
